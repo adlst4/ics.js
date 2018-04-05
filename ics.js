@@ -1,5 +1,5 @@
-/* global saveAs, Blob, BlobBuilder, console */
-/* exported ics */
+ global saveAs, Blob, BlobBuilder, console 
+ exported ics 
 
 var ics = function(uidDomain, prodId) {
   'use strict';
