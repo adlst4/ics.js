@@ -77,4 +77,4 @@ Credits
 ------------------
 * .[Travis Krause](https://github.com/nwcell)
 * [Kyle Hornberg](https://github.com/khornberg)
-* .[]
+* .[Eli Grey](https://github.com/nwcell/eligrey)
