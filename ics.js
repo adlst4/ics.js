@@ -47,7 +47,7 @@ var ics = function(uidDomain, prodId) {
      * @param  {string} begin       Beginning date of event
      * @param  {string} stop        Ending date of event
      */
-    'addEvent': function(subject, description, location, begin, stop) {
+    'addEvent': function(subject, description, location, begin, stop, category) {
       // I'm not in the mood to make these optional... So they are all required
 
       var calendarEvent = [
@@ -58,6 +58,7 @@ var ics = function(uidDomain, prodId) {
         'DTSTART:' + begin,
         'DTEND:' + stop,
          location,
+         category,
          subject,
         'TRANSP:TRANSPARENT',
         'END:VEVENT'
