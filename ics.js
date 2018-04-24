@@ -60,6 +60,7 @@ var ics = function(uidDomain, prodId) {
          location,
          category,
          subject,
+        'STATUS:BUSY',
         'TRANSP:TRANSPARENT',
         'END:VEVENT'
       ];
